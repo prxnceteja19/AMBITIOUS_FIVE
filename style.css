@@ -1,0 +1,82 @@
+h1{
+    color: brown;
+     }
+  body{
+      background-color: rgb(233, 241, 238);
+  }
+  
+  button{
+      background-color: rgb(255, 0, 0);
+      border: 50px;
+      border-width: 10px;
+      border-bottom-color: black;
+    
+  }
+  h3{
+      color: blue;
+  }
+  marquee{
+      color: rgb(8, 8, 8);
+  } 
+    
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h3 {
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #090909;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #010101;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf4e;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  @media (max-width: 768px) {
+    .form-container {
+      padding: 10px;
+    }
+  }
